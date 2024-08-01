@@ -52,9 +52,9 @@ class Form implements Stringable
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{$title}</title>
-    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link href="https://static.php94.com/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://static.php94.com/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://static.php94.com/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body>

@@ -43,9 +43,9 @@ class Summernote implements ItemInterface
         $str .= '<label class="form-label">' . htmlspecialchars($this->label) . '</label>';
 
         $str .= <<<str
-<link href="https://cdn.bootcdn.net/ajax/libs/summernote/0.8.20/summernote-lite.min.css" rel="stylesheet">
-<script src="https://cdn.bootcdn.net/ajax/libs/summernote/0.8.20/summernote-lite.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/summernote/0.8.20/lang/summernote-zh-CN.min.js"></script>
+<link href="https://static.php94.com/summernote/dev/summernote-lite.min.css" rel="stylesheet">
+<script src="https://static.php94.com/summernote/dev/summernote-lite.min.js"></script>
+<script src="https://static.php94.com/summernote/dev/lang/summernote-zh-CN.min.js"></script>
 <style>
 .note-editable {
     background-color: #fff;

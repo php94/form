@@ -55,8 +55,8 @@ class SimpleMDE implements ItemInterface
         $str .= '<label class="form-label">' . htmlspecialchars($this->label) . '</label>';
 
         $str .= <<<str
-<link href="https://cdn.bootcdn.net/ajax/libs/simplemde/1.11.2/simplemde.min.css" rel="stylesheet">
-<script src="https://cdn.bootcdn.net/ajax/libs/simplemde/1.11.2/simplemde.min.js"></script>
+<link href="https://static.php94.com/simplemde/1.11.2/simplemde.min.css" rel="stylesheet">
+<script src="https://static.php94.com/simplemde/1.11.2/simplemde.min.js"></script>
 <div style="max-width:900px;">
 <textarea name="{$name}">{$value}</textarea>
 <script>

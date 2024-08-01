@@ -55,12 +55,12 @@ class Codemirror implements ItemInterface
         $str = '';
         $str .= '<label class="form-label">' . htmlspecialchars($this->label) . '</label>';
         $str .= <<<'str'
-<link href="https://cdn.bootcdn.net/ajax/libs/codemirror/6.65.7/codemirror.min.css" rel="stylesheet">
-<script src="https://cdn.bootcdn.net/ajax/libs/codemirror/6.65.7/codemirror.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/codemirror/6.65.7/mode/htmlmixed/htmlmixed.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/codemirror/6.65.7/mode/php/php.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/codemirror/6.65.7/mode/javascript/javascript.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/codemirror/6.65.7/mode/xml/xml.min.js"></script>
+<link href="https://static.php94.com/codemirror/6.65.7/codemirror.min.css" rel="stylesheet">
+<script src="https://static.php94.com/codemirror/6.65.7/codemirror.min.js"></script>
+<script src="https://static.php94.com/codemirror/6.65.7/mode/htmlmixed/htmlmixed.min.js"></script>
+<script src="https://static.php94.com/codemirror/6.65.7/mode/php/php.min.js"></script>
+<script src="https://static.php94.com/codemirror/6.65.7/mode/javascript/javascript.min.js"></script>
+<script src="https://static.php94.com/codemirror/6.65.7/mode/xml/xml.min.js"></script>
 <style>
     .codemirror-container > .CodeMirror {
         border: 1px solid #ddd;
