@@ -34,6 +34,12 @@ class Selects implements ItemInterface
         $this->checked = $checked;
     }
 
+    public function setHelp(string $help): self
+    {
+        $this->help = $help;
+        return $this;
+    }
+
     public function addItem(Option|Optgroup ...$items): self
     {
         foreach ($items as $vo) {

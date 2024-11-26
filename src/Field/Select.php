@@ -50,6 +50,12 @@ class Select implements ItemInterface
         return $this;
     }
 
+    public function setHelp(string $help): self
+    {
+        $this->help = $help;
+        return $this;
+    }
+    
     public function setAutofocus(bool $autofocus = true): self
     {
         $this->autofocus = $autofocus;
